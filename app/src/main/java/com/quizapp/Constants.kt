@@ -39,7 +39,7 @@ object Constants {
             3, "Ce steag este acesta?",
             R.drawable.ic_flag_of_brazil,
             "Belarus", "Belize",
-            "Brunei", "Brazila", 4
+            "Brunei", "Brazilia", 4
         )
 
         questionsList.add(que3)
@@ -109,7 +109,7 @@ object Constants {
             10, "Ce steag este acesta?",
             R.drawable.ic_flag_of_kuwait,
             "Kuwait", "Iordania",
-            "Sudan", "IsraelD", 1
+            "Sudan", "Israel", 1
         )
 
         questionsList.add(que10)

@@ -110,7 +110,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
                     if (mCurrentPosition == mQuestionsList!!.size) {
                         btn_submit.text = "FINISH"
                     } else {
-                        btn_submit.text = "GO TO NEXT QUESTION"
+                        btn_submit.text = "URMATOAREA INTREBARE"
                     }
 
                     mSelectedOptionPosition = 0
@@ -129,7 +129,7 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
         if (mCurrentPosition == mQuestionsList!!.size) {
             btn_submit.text = "FINISH"
         } else {
-            btn_submit.text = "SUBMIT"
+            btn_submit.text = "TRIMITE"
         }
 
         progressBar.progress = mCurrentPosition
